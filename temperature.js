@@ -4,10 +4,6 @@
 
 
 function temperature(temperature){
-    if(temperature>30){
-        return"Hot"
-    }else{
-        return"Moderate"
-    }
+    (temperature>30)?console.log("Hot"):console.log("Moderate")
 }
-console.log(temperature(29))
+temperature(35)
